@@ -1,0 +1,68 @@
+.home-container {
+  align-items: center;
+  background: url('/home/murilo/trybe/portifolio/Murilo-Carrijo.github.io/portifolio/src/image/blob-scene-haikei.png') center/cover;
+  color: #fffffe;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+}
+
+
+.header-container {
+  background: none;
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 32px;
+}
+
+.text-container h1 {
+  background: none;
+  font-size: 60px;
+}
+
+.header-container img {
+  background: none;
+  border-radius: 100px;
+  margin-left: 16px;
+  margin-bottom: 60px;
+  margin-top: 16px;
+  max-width: 200px;
+  max-height: 200px;
+}
+
+.home-container p {
+  background: none;
+  color: #94a1b2;
+  margin: 16px;
+}
+
+.link-container {
+  background: none;
+  display: flex;
+  padding: 16px;
+}
+
+.card-description {
+  background-color: #242629;
+  border-radius: 8px;
+  box-shadow: 0 1px 18px #7f5af0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 16px;
+  margin-bottom: 80px;
+  max-width: 60%;
+}
+
+.card-description h3 {
+  margin-left: 16px;
+  margin-top: 16px;
+}
+
+.card-description a {
+  color: #2cb67d;
+  text-decoration: none;
+}
+
