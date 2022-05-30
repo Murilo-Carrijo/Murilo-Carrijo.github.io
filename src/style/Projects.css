@@ -1,0 +1,47 @@
+.projects-container {
+    align-items: center;
+    background: url('/home/murilo/trybe/portifolio/Murilo-Carrijo.github.io/portifolio/src/image/layered-waves-haikei.png') center/cover;
+    color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .projects-container h1 {
+    font-size: 60px;
+    margin-bottom: 40px;
+  }
+  
+  .card-project {
+    background-color: #242629;
+    border-radius: 8px;
+    box-shadow: 0 1px 18px #7f5af0;
+    display: flex;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    max-width: 60%;
+    padding: 16px;
+  }
+  
+  .card-project h2 {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  
+  .card-project p {
+    color: #94a1b2;
+    padding: 16px;
+  }
+  
+  .card-project a {
+    color: #2cb67d;
+    text-decoration: none;
+  }
+
+  .card-project img {
+    border-radius: 6px;
+    height: 200px;
+    width: 350px;
+  }

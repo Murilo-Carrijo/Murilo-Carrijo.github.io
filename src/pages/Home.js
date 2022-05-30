@@ -2,13 +2,13 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
 import '../style/Home.css';
-import murilo from'../image/murilo.png'
+import murilo from'../image/murilo.png';
 
 class Home extends Component {
   render() {
     return(
       <div className='home-container'>
-        <div className='header-container'>
+        <div className='home-header-container'>
           <div className='text-container'>
             <h1>Olá, eu sou o Murilo!</h1>
             <h2>Desenvolvedor Front End</h2>
@@ -30,7 +30,7 @@ class Home extends Component {
         <div className="card-description">
           <h3>Um pouco a meu respeito</h3>
           <p>Sou um profissional formado em administração de empresas que se apaixonou pela área de desenvolvimento de software, e que agora vive uma transição de carreira. Estudo desenvolvimento de software na Trybe e tenho como objetivo desenvolver minha carreira sob a supervisão e estímulo de uma empresa comprometida com a inovação.</p>
-          <p>Continue lendo sobre a minha história clicando <Link to='/historia'>aqui!</Link></p>
+          <p>Continue lendo sobre a minha história <Link to='/historia'>clicando aqui!</Link></p>
         </div>
 
         <div className="card-description">

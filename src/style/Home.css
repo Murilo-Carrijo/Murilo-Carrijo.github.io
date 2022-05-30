@@ -1,6 +1,6 @@
 .home-container {
   align-items: center;
-  background: url('/home/murilo/trybe/portifolio/Murilo-Carrijo.github.io/portifolio/src/image/blob-scene-haikei.png') center/cover;
+  background: url('/home/murilo/trybe/portifolio/Murilo-Carrijo.github.io/portifolio/src/image/layered-waves-haikei.png') center/cover;
   color: #fffffe;
   display: flex;
   flex-direction: column;
@@ -9,25 +9,26 @@
   width: 100%;
 }
 
-
-.header-container {
-  background: none;
+.home-header-container {
+  align-items: center;
   display: flex;
-  margin-top: 100px;
-  margin-bottom: 32px;
+  justify-content: center;
+  margin-top: 80px;
+  width: 100%;
 }
 
 .text-container h1 {
   background: none;
   font-size: 60px;
+  margin-top: 32px;
 }
 
-.header-container img {
+.home-header-container img {
   background: none;
   border-radius: 100px;
   margin-left: 16px;
   margin-bottom: 60px;
-  margin-top: 16px;
+  margin-top: 32px;
   max-width: 200px;
   max-height: 200px;
 }
@@ -41,6 +42,7 @@
 .link-container {
   background: none;
   display: flex;
+
   padding: 16px;
 }
 
