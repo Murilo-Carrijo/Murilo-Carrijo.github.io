@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import data from '../data/data';
 
-import Header from './Header';
+import Header from '../Components/Header';
 
 import '../style/Projects.css';
 
