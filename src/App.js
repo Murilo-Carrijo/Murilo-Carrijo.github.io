@@ -13,10 +13,10 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <Route exact path="/" render={(props) => <Home {...props} />} />
-        <Route path="/projetos" render={(props) => <Projects {...props} />} />
-        <Route path="/historia" render={(props) => <Me {...props} />} />
+      <BrowserRouter basename={ process.env.PUBLIC_URL }>
+        <Route exact path="/" render={(props) => <Home { ...props } />} />
+        <Route path="/projetos" render={(props) => <Projects { ...props } />} />
+        <Route path="/historia" render={(props) => <Me { ...props } />} />
       </BrowserRouter>
     );
   }
