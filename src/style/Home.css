@@ -163,12 +163,12 @@
   
   .home-header-container img {
     background: none;
-    border-radius: 100px;
+    border-radius: 200px;
     margin-left: 16px;
     margin-bottom: 60px;
     margin-top: 32px;
-    max-width: 200px;
-    max-height: 200px;
+    max-width: 300px;
+    max-height: 300px;
   }
   
   .home-container p {
@@ -193,7 +193,7 @@
     justify-content: center;
     margin: 16px;
     margin-bottom: 80px;
-    max-width: 60%;
+    max-width: 1000px;
   }
   
   .card-description h3 {
