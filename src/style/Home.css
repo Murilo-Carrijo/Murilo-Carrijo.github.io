@@ -1,3 +1,70 @@
+@media (max-width: 768px) {
+  .home-container {
+    align-items: center;
+    background: url('../image/layered-waves-haikei.png') center/cover;
+    color: #fffffe;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+  }
+  
+  .home-header-container {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: 24px;
+    margin-top: 80px;
+    width: 100%;
+  }
+  
+  .text-container h1 {
+    background: none;
+    font-size: 60px;
+    margin-top: 32px;
+  }
+  
+  .home-header-container img {
+    display: none;
+  }
+  
+  .home-container p {
+    background: none;
+    color: #94a1b2;
+    margin: 16px;
+  }
+  
+  .link-container {
+    background: none;
+    display: flex;
+  
+    padding: 16px;
+  }
+  
+  .card-description {
+    background-color: #242629;
+    border-radius: 8px;
+    box-shadow: 0 1px 18px #7f5af0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 16px;
+    margin-bottom: 80px;
+    max-width: 60%;
+  }
+  
+  .card-description h3 {
+    margin-left: 16px;
+    margin-top: 16px;
+  }
+  
+  .card-description a {
+    color: #2cb67d;
+    text-decoration: none;
+  }
+}
+
 .home-container {
   align-items: center;
   background: url('../image/layered-waves-haikei.png') center/cover;
