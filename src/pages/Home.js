@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import { Link } from 'react-router-dom';
 
 import '../style/Home.css';
-import murilo from'../image/murilo.png';
 
 class Home extends Component {
   render() {
@@ -25,7 +24,6 @@ class Home extends Component {
           </div>
             </div>
           </div>
-          <img src={murilo} />
         </div>
         <div className="card-description">
           <h3>Um pouco a meu respeito</h3>

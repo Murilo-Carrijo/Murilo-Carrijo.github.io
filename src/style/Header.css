@@ -4,6 +4,7 @@
   background-color: #16161a;
   border-bottom: 6px solid #2cb67d;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   height: 80px;
   margin: 0;
