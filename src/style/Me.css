@@ -1,6 +1,6 @@
 .history-container {
   align-items: center;
-  background: url('/home/murilo/trybe/portifolio/Murilo-Carrijo.github.io/portifolio/src/image/layered-waves-haikei.png') center/cover;
+  background: url('../image/layered-waves-haikei.png') center/cover;
   color: #fffffe;
   display: flex;
   flex-direction: column;
