@@ -2,6 +2,7 @@ import cart from '../image/shopping-cart.jpg';
 import solar from '../image/sistema-solar.jpg';
 import tryunfo from '../image/tryunfo.jpg';
 import portifolio from '../image/portifolio.jpg';
+import trybetunes from '../image/pagina-de-pesquisa.jpg'
 
 const projects = [
   {
@@ -30,6 +31,13 @@ const projects = [
     name: 'Portifólio',
     link: 'https://github.com/Murilo-Carrijo/Murilo-Carrijo.github.io',
     image: portifolio,
+    technology: 'HTML, CSS e React',
+  },
+  {
+    id: 5,
+    name: 'Trybetunes',
+    link: 'https://github.com/Murilo-Carrijo/Trybetunes',
+    image: trybetunes,
     technology: 'HTML, CSS e React',
   },  
 ];
