@@ -38,7 +38,7 @@ class Home extends Component {
           <div className="card-description">
             <h3 className="card-title">Meus projetos</h3>
             <p>Durante o meu curso na Trybe pude desenvolver projetos incríveis, que foram desafiadores e me propiciaram muitos aprendizados.</p>
-            <p>Para desenvolver os projetos foram utilizadas diversas tecnoligias como HTML, CSS, JavaScript, React entre outras. </p>
+            <p>Para desenvolver os projetos foram utilizadas diversas tecnologias como HTML, CSS, JavaScript, React entre outras. </p>
             <button type="button" className="button-card-description"><Link to='/projetos'>Saiba Mais</Link></button>
           </div>
         </div>
