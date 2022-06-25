@@ -11,6 +11,7 @@
   }
   
   .home-header-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -42,6 +43,7 @@
   }
 
   .card-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-content: center;
     align-items: center;
     display: flex;
@@ -104,6 +106,7 @@
   }
   
   .home-header-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -140,6 +143,7 @@
   }
   
   .card-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-content: center;
     align-items: center;
     display: flex;
@@ -158,6 +162,7 @@
     flex-wrap: wrap;
     justify-content: center;
     margin: 16px;
+    transition-timing-function: ease;
     max-width: 35%;
   }
   
@@ -199,6 +204,7 @@
   }
   
   .home-header-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-items: center;
     display: flex;
     justify-content: center;
@@ -236,6 +242,7 @@
   }
 
   .card-container {
+    animation: opacityEffect 3s cubic-bezier(0.45, 0.05, 0.55, 0.95) both, slideEffect 3s ease both;
     align-content: center;
     align-items: center;
     display: flex;
@@ -278,5 +285,32 @@
     margin: auto;
     margin-bottom: 16px;
     width: 30%;
+  }
+}
+
+@keyframes slideEffect {
+  from {
+    transform: translateX(-300px)
+  }
+  to {
+    transform: translateX(0)
+  }
+}
+
+@keyframes slideUpEffect {
+  from {
+    transform: translateY(300px)
+  }
+  to {
+    transform: translateX(0)
+  }
+}
+  
+@keyframes opacityEffect {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
