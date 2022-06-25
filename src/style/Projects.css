@@ -50,7 +50,7 @@
     padding: 16px;
   }
 
-  .card-project img {
+  .project-img {
     display: block;
     border-radius: 8px 8px 0px 0px;
     background-repeat: no-repeat;
@@ -60,6 +60,23 @@
     max-height: 300px;
     overflow: hidden;
     width: 100%;
+  }
+
+  .project-img {
+    display: block;
+    border-radius: 8px 8px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    height: 200px;
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .card-project-button {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 16px;
   }
 }
 
@@ -112,7 +129,7 @@
       text-decoration: none;
     }
   
-    .card-project img {
+    .project-img {
       display: block;
       border-radius: 8px 8px 0px 0px;
       background-repeat: no-repeat;
@@ -121,5 +138,11 @@
       height: 200px;
       overflow: hidden;
       width: 100%;
+    }
+
+    .card-project-button {
+      display: flex;
+      justify-content: center;
+      margin-bottom: 16px;
     }
 }
